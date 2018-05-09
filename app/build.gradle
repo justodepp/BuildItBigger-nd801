@@ -32,15 +32,13 @@ android {
         }
     }
 
-    flavorDimensions "flavorDimension"
+    flavorDimensions "version"
     productFlavors {
         free {
             applicationId = "com.udacity.gradle.builtitbigger.free"
-            dimension "flavorDimension"
         }
         paid {
             applicationId = "com.udacity.gradle.builtitbigger.paid"
-            dimension "flavorDimension"
         }
     }
 }
