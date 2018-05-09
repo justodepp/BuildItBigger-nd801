@@ -31,6 +31,14 @@ public class MainActivityFragment extends Fragment {
                 .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
                 .build();
         mAdView.loadAd(adRequest);
+
+        /*root.findViewById(R.id.joke_btn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // TODO: AsyncTask
+            }
+        });*/
+
         return root;
     }
 }
